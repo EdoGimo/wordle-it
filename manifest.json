@@ -38,9 +38,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://pietroppeter.github.io/wordle-it/",
+  "start_url": "https://edogimo.github.io/wordle-it/",
   "background_color": "#6aaa64",
   "display": "standalone",
   "theme_color": "#6aaa64",
-  "description": "Un gioco di parole al giorno (wordle in italiano)"
+  "description": "Un gioco di parole al giorno (wordle in italiano con 6 lettere)"
 }
