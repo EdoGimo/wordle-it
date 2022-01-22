@@ -939,7 +939,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
       }]), t
   }(c(HTMLElement));
   customElements.define("game-toast", Ea);
-  var Aa = ["beaboz"],
+  var Aa = ["beaboz", "diobba", "ghenz", "bianca", "denaro"],
       La = ["sparta"], //already found?
       Ta = "present",
       Ia = "correct",
