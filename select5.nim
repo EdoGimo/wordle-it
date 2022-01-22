@@ -12,12 +12,12 @@ const
 var add: bool
 for line in "dictionary.txt".lines:
   add = true
-  if line.len == 5 and '\'' notIn line:
+  if line.len == 6 and '\'' notIn line:
     for c in line:
       if c notin alphabet:
         add = false
         break
-    if line[4] notin endings:
+    if line[5] notin endings:
       add = false
     if add:
       word_list.add line
@@ -25,29 +25,12 @@ for line in "dictionary.txt".lines:
 # puzzle list is taken from smaller file (more reasonable words)
 for line in "60_000_parole.txt".lines:
   add = true
-  if line.len == 5 and '\'' notIn line:
+  if line.len == 6 and '\'' notIn line:
     for c in line:
       if c notin alphabet:
         add = false
         break
-    if line[4] notin endings:
+    if line[5] notin endings:
       add = false
     if add:
       puzzle_list.add line
-
-writeFile("big5.txt"): word_list.join("\n")
-writeFile("small5.txt"): puzzle_list.join("\n")
-
-echo len word_list
-echo puzzle_list.len
-
-# check where is placed yesterday's word
-when defined(findOncia):
-  var i = 0
-  for word in puzzle_list:
-    if word == "oncia":
-      echo i
-    inc i
-  
-# 7910
-# 2510
