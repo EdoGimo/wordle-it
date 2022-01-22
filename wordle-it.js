@@ -1205,7 +1205,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
                       var s = a.detail.key;
                       "←" === s || "Backspace" === s ? e.removeLetter() : "↵" === s || "Enter" === s ? e.submitGuess() : Ga.includes(s.toLowerCase()) && e.addLetter(s.toLowerCase())
                   })), this.$game.addEventListener("game-last-tile-revealed-in-row", (function(a) {
-                      e.$keyboard.letterEvaluations = e.letterEvaluations, e.rowIndex < 6 && (e.canInput = !0);
+                      e.$keyboard.letterEvaluations = e.letterEvaluations, e.rowIndex < 7 && (e.canInput = !0);
                       var s = e.$board.querySelectorAll("game-row")[e.rowIndex - 1];
                       (a.path || a.composedPath && a.composedPath()).includes(s) && ([Za, es].includes(e.gameStatus) && (e.restoringFromLocalStorage ? e.showStatsModal() : (e.gameStatus === Za && (s.setAttribute("win", ""), e.addToast(as[e.rowIndex - 1], 2e3)), e.gameStatus === es && e.addToast(e.solution.toUpperCase(), 1 / 0), setTimeout((function() {
                           e.showStatsModal()
