@@ -1143,7 +1143,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
           }, {
               key: "addLetter",
               value: function(e) {
-                  this.gameStatus === Qa && (this.canInput && (this.tileIndex >= 5 || (this.boardState[this.rowIndex] += e, this.$board.querySelectorAll("game-row")[this.rowIndex].setAttribute("letters", this.boardState[this.rowIndex]), this.tileIndex += 1)))
+                  this.gameStatus === Qa && (this.canInput && (this.tileIndex >= 6 || (this.boardState[this.rowIndex] += e, this.$board.querySelectorAll("game-row")[this.rowIndex].setAttribute("letters", this.boardState[this.rowIndex]), this.tileIndex += 1)))
               }
           }, {
               key: "removeLetter",
