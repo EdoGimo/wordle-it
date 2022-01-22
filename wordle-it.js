@@ -939,8 +939,8 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
       }]), t
   }(c(HTMLElement));
   customElements.define("game-toast", Ea);
-  var Aa = ["troppo"],
-      La = ["sparta"],
+  var Aa = ["beaboz"],
+      La = ["sparta"], //already found?
       Ta = "present",
       Ia = "correct",
       Ca = "absent";
