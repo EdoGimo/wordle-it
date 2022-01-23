@@ -1,6 +1,7 @@
 # Par🇮🇹le
 
-Progetto originale: https://pietroppeter.github.io/wordle-it/
+Progetto originale: https://pietroppeter.github.io/wordle-it/.
+Questo è stato modificato per avere parole da 6 lettere.
 
 Una versione italiana (non ufficiale) di [WORDLE](https://powerlanguage.co.uk/wordle/). Se l'autore di Wordle non approva, lo tiro giù: https://twitter.com/pietroppeter/status/1477993203425030144?s=20.
 
