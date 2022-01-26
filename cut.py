@@ -1,6 +1,6 @@
 import random
 
-path = '/PATH/TO/dic6.txt'	#or whatever path
+path = '/PATH/TO/dic6.txt'	#TODO change paths
 path2 = '/PATH/TO/row.txt'
 
 text = []
